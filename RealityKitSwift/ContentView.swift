@@ -2,7 +2,17 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        ARViewContainer().edgesIgnoringSafeArea(.all)
+        NavigationView {
+            List {
+                NavigationLink("Experience") {
+                    ARViewContainer().edgesIgnoringSafeArea(.all)
+                }
+                NavigationLink("") {
+                    
+                }
+            }
+            .navigationTitle("RealityKit")
+        }
     }
 }
 

@@ -55,8 +55,8 @@
 		14D246ED2ACEE1C100B048DB /* RealityKitSwift */ = {
 			isa = PBXGroup;
 			children = (
+				14D247002ACEE51200B048DB /* Experience */,
 				14D246EE2ACEE1C100B048DB /* AppDelegate.swift */,
-				14D246FE2ACEE24700B048DB /* ARViewContainer.swift */,
 				14D246F02ACEE1C100B048DB /* ContentView.swift */,
 				14D246F22ACEE1C100B048DB /* Experience.rcproject */,
 				14D246F42ACEE1C200B048DB /* Assets.xcassets */,
@@ -71,6 +71,14 @@
 				14D246F72ACEE1C200B048DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14D247002ACEE51200B048DB /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				14D246FE2ACEE24700B048DB /* ARViewContainer.swift */,
+			);
+			path = Experience;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
