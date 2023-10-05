@@ -13,6 +13,7 @@
 		14D246F52ACEE1C200B048DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D246F42ACEE1C200B048DB /* Assets.xcassets */; };
 		14D246F82ACEE1C200B048DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D246F72ACEE1C200B048DB /* Preview Assets.xcassets */; };
 		14D246FF2ACEE24700B048DB /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D246FE2ACEE24700B048DB /* ARViewContainer.swift */; };
+		14D247032ACEF0C400B048DB /* ARPlaneDetectionViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D247022ACEF0C400B048DB /* ARPlaneDetectionViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		14D246F42ACEE1C200B048DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14D246F72ACEE1C200B048DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14D246FE2ACEE24700B048DB /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		14D247022ACEF0C400B048DB /* ARPlaneDetectionViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPlaneDetectionViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		14D246ED2ACEE1C100B048DB /* RealityKitSwift */ = {
 			isa = PBXGroup;
 			children = (
+				14D247012ACEF09B00B048DB /* PlaneDetection */,
 				14D247002ACEE51200B048DB /* Experience */,
 				14D246EE2ACEE1C100B048DB /* AppDelegate.swift */,
 				14D246F02ACEE1C100B048DB /* ContentView.swift */,
@@ -79,6 +82,14 @@
 				14D246FE2ACEE24700B048DB /* ARViewContainer.swift */,
 			);
 			path = Experience;
+			sourceTree = "<group>";
+		};
+		14D247012ACEF09B00B048DB /* PlaneDetection */ = {
+			isa = PBXGroup;
+			children = (
+				14D247022ACEF0C400B048DB /* ARPlaneDetectionViewContainer.swift */,
+			);
+			path = PlaneDetection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D247032ACEF0C400B048DB /* ARPlaneDetectionViewContainer.swift in Sources */,
 				14D246F12ACEE1C100B048DB /* ContentView.swift in Sources */,
 				14D246FF2ACEE24700B048DB /* ARViewContainer.swift in Sources */,
 				14D246EF2ACEE1C100B048DB /* AppDelegate.swift in Sources */,

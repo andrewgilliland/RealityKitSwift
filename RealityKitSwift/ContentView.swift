@@ -7,8 +7,8 @@ struct ContentView : View {
                 NavigationLink("Experience") {
                     ARViewContainer().edgesIgnoringSafeArea(.all)
                 }
-                NavigationLink("") {
-                    
+                NavigationLink("Plane Detection and Raycasting") {
+                    ARPlaneDetectionViewContainer().edgesIgnoringSafeArea(.all)
                 }
             }
             .navigationTitle("RealityKit")
